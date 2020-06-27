@@ -1,0 +1,19 @@
+{
+  "name": "personal-tutoring",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mohamedsamara/personal-tutoring.git"
+  },
+  "author": "Mohamed Samara (https://github.com/mohamedsamara)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mohamedsamara/personal-tutoring/issues"
+  },
+  "homepage": "https://github.com/mohamedsamara/personal-tutoring#readme"
+}
