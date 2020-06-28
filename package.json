@@ -1,13 +1,16 @@
 {
+  "private": true,
   "name": "personal-tutoring",
   "version": "1.0.0",
-  "private": true,
   "workspaces": {
     "packages": [
       "packages/*"
     ]
   },
+  "author": "Mohamed Samara (https://github.com/mohamedsamara)",
+  "license": "MIT", 
   "devDependencies": {
     "lerna": "^3.22.1"
   }
 }
+
