@@ -2,15 +2,23 @@
   "private": true,
   "name": "personal-tutoring",
   "version": "1.0.0",
+  "scripts": {
+    "clean": "rm -rf ./packages/*/node_modules",
+    "clean-locks": "rm -rf ./packages/*/yarn.lock",
+    "bootstrap": "lerna bootstrap",
+    "reset": "yarn clean && yarn clean-locks && yarn bootstrap"
+  },
+  "author": "Mohamed Samara (https://github.com/mohamedsamara)",
+  "license": "MIT",
+  "dependencies": {
+    "metro-config": "^0.59.0"
+  },
+  "devDependencies": {
+    "lerna": "^3.22.1"
+  },
   "workspaces": {
     "packages": [
       "packages/*"
     ]
-  },
-  "author": "Mohamed Samara (https://github.com/mohamedsamara)",
-  "license": "MIT", 
-  "devDependencies": {
-    "lerna": "^3.22.1"
   }
 }
-
