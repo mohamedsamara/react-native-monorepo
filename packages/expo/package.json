@@ -1,6 +1,6 @@
 {
   "private": true,
-  "name": "mobile",
+  "name": "@pt/expo",
   "version": "1.0.0",
   "main": "__generated__/AppEntry.js",
   "scripts": {
