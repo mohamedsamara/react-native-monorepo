@@ -1,12 +1,11 @@
 {
   "private": true,
-  "name": "personal-tutoring",
+  "name": "project",
   "version": "1.0.0",
   "scripts": {
-    "clean": "rm -rf ./packages/*/node_modules",
-    "clean-locks": "rm -rf ./packages/*/yarn.lock",
     "bootstrap": "lerna bootstrap",
-    "reset": "yarn clean && yarn clean-locks && yarn bootstrap"
+    "clean": "rm -rf packages/*/node_modules && rm -rf packages/*/yarn.lock && rm -rf ./node_modules && rm -rf yarn.lock",
+    "reset": "yarn clean && yarn bootstrap"
   },
   "author": "Mohamed Samara (https://github.com/mohamedsamara)",
   "license": "MIT",

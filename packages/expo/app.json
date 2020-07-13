@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "@pt/expo",
-    "slug": "personal-tutoring",
+    "name": "@project/expo",
+    "slug": "project",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
